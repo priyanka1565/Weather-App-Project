@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="current">
+
+            <div class="date_cont">
+                <div class="time" id="time">
+                    12:30 <span id="am-pm">PM</span>
+                </div>
+
+                <div class="date" id="date">
+                    Monday, 24 May
+                </div>
+
+                <div class="details" id="current_items">
+                </div>
+
+            </div>
+
+            <div class="inp">
+                <input type="text" id="city">
+                <button id="search">Search</button>
+            </div>
+            
+            <div class="map">
+                <div id="dis1"></div>
+            </div>
+
+        </div>
+
+        <div class="future">
+
+            <div class="today" id="current-temp">
+                 <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+                  <div class="other">
+                   <!-- <div class="day">Monday</div>
+                   <div class="temp">Night - 25.6&#176; C</div>
+                   <div class="temp">Day - 35.6&#176; C</div> -->
+            </div> 
+                
+            </div>
+
+
+            <div class="weather_upcoming" id="weather_upcoming">
+                <div class="weather_upcoming-items">
+                    <!-- <div class="day">Tuesday</div>
+                    <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+                    <div class="temp">Night - 25.6&#176; C</div>
+                    <div class="temp">Day - 35.6&#176; C</div> -->
+
+                </div>
+
+                <div class="weather_upcoming-items">
+                    <!-- <div class="day">Wed</div>
+                    <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+                    <div class="temp">Night - 25.6&#176; C</div>
+                    <div class="temp">Day - 35.6&#176; C</div> -->
+
+                </div>
+
+                <div class="weather_upcoming-items">
+                    <!-- <div class="day">Thur</div>
+                    <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+                    <div class="temp">Night - 25.6&#176; C</div>
+                    <div class="temp">Day - 35.6&#176; C</div> -->
+
+                </div>
+
+                <div class="weather_upcoming-items">
+                    <!-- <div class="day">Friday</div>
+                    <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+                    <div class="temp">Night - 25.6&#176; C</div>
+                    <div class="temp">Day - 35.6&#176; C</div> -->
+
+                </div>
+ 
+
+                <div class="weather_upcoming-items">
+                    <!-- <div class="day">Saturday</div>
+                    <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+                    <div class="temp">Night - 25.6&#176; C</div>
+                    <div class="temp">Day - 35.6&#176; C</div> -->
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>
+
+<script src="script.js"></script>

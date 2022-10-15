@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;700&display=swap');
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+body{
+    background:url("https://cdn.wallpapersafari.com/99/37/NQsAME.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    overflow:hidden;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    padding: 20px 50px;
+    color:#fff;
+}
+.current{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.date-cont{
+    font-weight: 100;
+}
+.date-cont .time{
+    font-size: 70px;
+}
+.date-cont #am-pm{
+    font-size: 30px;
+    margin-left: 20px;
+}
+.date-container .date{
+    font-size: 30px;
+}
+.current .details{
+    display: flex;
+     flex-direction: column;
+     background: rgba(24,24,27, 0.6);
+    padding:20px;
+    border-radius: 10px;
+    margin: 10px 0;
+    border: 1px solid #eee;  
+}
+.current .details .item {
+    display: flex;
+    justify-content: space-between;
+    
+}   
+
+.inp{
+    width: 30%;
+    height: 90px;
+    border: 1px solid red;
+    padding: 15px 5px;
+}
+.inp > input{
+    width: 80%;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 5px;
+}
+.inp > button{
+    width: 18%;
+    height: 35px;
+    color: black;
+    border-radius: 8px;
+    border: none;
+}
+
+.map{
+    width: 40%;
+    height: 300px;
+    border: 1px solid blue;
+}
+
+.map > #dis1{
+    width: 40%;
+    height: 400px;
+     
+}
+
+.future{
+    background: rgba(24,24,27,0.8);
+     padding: 1px; 
+     position: fixed; 
+    bottom: 0;
+    display: flex;
+    color:white;
+    width: 109%;
+     align-items: center; 
+    justify-content: center;
+     /* overflow-y: hidden;  */
+    
+}
+
+.future .today {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     border: 1px solid #eee;
+    border-radius: 10px;
+     padding:15px;
+    padding-right: 40px;
+    border-radius: 10px;
+    background: rgba(0,0,0,0.2) 
+}
+ 
+
+.future .today .day{
+    padding: 5px 15px;
+    background: #3c3c44;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.future .today .temp{
+    font-size: 18px;
+    padding-top: 15px;
+}
+
+.future .weather_upcoming{
+    display: flex;
+}
+
+ .weather_upcoming  .weather_upcoming-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+    border: 1px solid #eee;
+    padding: 15px;
+    border-radius: 10px;
+    background: rgba(0,0,0,0.2)
+}
+  
+.weather_upcoming .weather_upcoming-items .day{
+    padding: 5px 15px;
+    background: #3C3C44;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.weather_upcoming .weather_upcoming-items .temp{
+    font-weight: 100;
+    font-size: 12px;
+} 
+
